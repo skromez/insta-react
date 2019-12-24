@@ -1,0 +1,54 @@
+.profile {
+  &--hidden {
+    display: none;
+  }
+}
+
+.profile__container {
+  margin-top: 70px;
+  display: flex;
+  max-width: 800px;
+}
+
+.profile__userpic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid var(--gray-color);
+}
+
+.profile__wrapper {
+  display: flex;
+  align-items: center;
+  margin-left: 45px;
+}
+
+.profile__item {
+  &--name {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  &--publications {
+    margin-top: 10px;
+
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  &--status {
+    margin-top: 20px;
+
+    font-size: 24px;
+    line-height: 33px;
+  }
+}
+
+.profile__icon {
+  width: 30px;
+  height: 30px;
+}
+
+.profile__input {
+  display: none;
+}
