@@ -52,7 +52,7 @@ module.exports = merge(common, {
     plugins: [
         new webpack.HotModuleReplacementPlugin(),
         new HtmlWebpackPlugin({
-            title: 'Title',
+            title: 'React Instagram',
             inject: false,
             template: require('html-webpack-template'),
             bodyHtmlSnippet: '<div class="main" id="app"></div>'
